@@ -1,0 +1,69 @@
+body {
+    background-color: #e0ffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #0c0e0f; 
+        font-size: 0.9em; 
+        margin: 15px 0; 
+}
+
+h2 {
+    color: #000000; 
+    font-size: 0.75em; 
+    margin: 15px 0; 
+}
+
+main {
+    flex: 1; 
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f0ffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #b2d8d8;
+    font-weight: bold;
+}
+
+tfoot {
+    background-color: #d4f1f4; 
+    font-weight: bold;
+}
+
+button {
+    background-color: #0a6e75;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+footer{
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    text-align: center;
+}
+
+#expenseChart {
+    width: 180px;
+    height: 300px; 
+    margin: 0 auto; 
+}

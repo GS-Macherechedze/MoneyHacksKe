@@ -1,0 +1,22 @@
+{
+  "name": "web_week6_assignment",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "mysql2": "^3.11.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.4"
+  }
+}
