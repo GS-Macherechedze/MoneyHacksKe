@@ -47,9 +47,9 @@ connection.connect((err) => {
 // Import functions from index.js
 const expenseHandlers = require("./index");
 
-// Route to serve the registration page
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "register.html"));
+// Redirect root '/' to '/register'
+app.get('/', (req, res) => {
+  res.redirect('/register.html');
 });
 
 //handling the Post request

@@ -38,10 +38,9 @@ app.post("/api/expenses", (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
-
-// Serve the home.html file when visiting the root URL
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "home"));
+// Redirect root '/' to '/register'
+app.get('/', (req, res) => {
+  res.redirect('/register.html');
 });
 
 // read all expense
