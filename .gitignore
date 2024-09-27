@@ -1,2 +1,5 @@
-echo "node_modules/" >> .gitignore
 .vercel
+node_modules/
+.log
+.env
+package-lock.json
