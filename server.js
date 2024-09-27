@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config(); 
 
 const app = require("./index");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 const path = require("path");
 
@@ -220,6 +220,6 @@ app.get("/home", (req, res) => {
 });
 
 //starting the server
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
+app.listen(10000, () => {
+  console.log("Server running on port 10000");
 });
